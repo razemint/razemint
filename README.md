@@ -1,0 +1,2 @@
+# razemint
+personal website
