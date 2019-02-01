@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Blog</h1>
+
+<ul>
+    {% for blog in site.posts  %}
+    <li>
+        <a class="title" href="">{{ blog.title }}</a>
+        <p class="meta"> {{ blog.meta }} </p>
+        <p class="category"> {{ blog.category }} </p>
+    </li>
+    {% endfor %}
+</ul>
