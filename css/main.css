@@ -1,3 +1,7 @@
+body {
+     margin: 5px;;
+}
+
 h1 {
      font-family: 'Noto Sans', sans-serif;
 }
@@ -72,4 +76,6 @@ ul {
 
 footer {
      font-family: 'Roboto Mono', sans-serif;
+     text-align: center;
+     padding: 10px;
 }
