@@ -1,2 +1,2 @@
-baseurl: /index.html
+baseurl: /home
 exclude: ["README.md"]
