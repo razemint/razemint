@@ -1,10 +1,11 @@
 body {
      margin: 5px;
-     ;
 }
 
 h1 {
      font-family: 'Noto Sans', sans-serif;
+     width: 1000px;
+     margin: 0 auto;
 }
 
 /* header styles */
@@ -21,7 +22,6 @@ a {
 }
 
 .title {
-     margin: 0;
      padding: 0;
      list-style-type: none;
      display: flex;
@@ -92,7 +92,7 @@ nav>ul {
 footer {
      font-family: 'Roboto Mono', sans-serif;
      text-align: center;
-     padding: 10px;
+     padding: 25px;
      font-size: 1rem;
      display: flex;
      justify-content: space-between;
