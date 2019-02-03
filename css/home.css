@@ -1,5 +1,6 @@
 body {
-     margin: 5px;;
+     margin: 5px;
+     ;
 }
 
 h1 {
@@ -14,11 +15,17 @@ a {
      font-family: 'Roboto Mono', monospace;
 }
 
+.title img {
+     vertical-align: middle;
+     margin-right: 1px;
+}
+
 .title {
      margin: 0;
      padding: 0;
      list-style-type: none;
      display: flex;
+     align-items: center;
      justify-content: space-between;
 }
 
@@ -75,7 +82,7 @@ nav.ul {
      list-style-type: none;
 }
 
-nav > ul {
+nav>ul {
      display: flex;
      justify-content: flex-end;
 }
@@ -87,4 +94,6 @@ footer {
      text-align: center;
      padding: 10px;
      font-size: 1rem;
+     display: flex;
+     justify-content: space-between;
 }
