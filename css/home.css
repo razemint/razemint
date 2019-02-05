@@ -28,7 +28,9 @@ a {
      align-items: center;
      justify-content: space-between;
      flex-wrap: wrap;
+     margin: 0 auto;
      max-width: 1000px;
+     width: 100%;
 }
 
 nav ul li {
@@ -99,16 +101,45 @@ footer {
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
+     margin: 0 auto;
+     max-width: 1000px;
+     flex: 1;
 }
 
 @media screen and (max-width: 1024px) {}
 
-@media screen and (min-width: 768px) {
-     body {
-          border: 10px solid red;
+@media screen and (max-width: 767px) {
+     .title {}
+}
+
+@media screen and (max-width: 480px) {
+     .title ul {
+          margin: 0;
+     }
+
+     .nav ul {
+          display: block;
+     }
+
+     .title-h1 {
+          margin: auto;
+     }
+
+     .footer {
+          text-align: center;
      }
 }
 
-@media screen and (min-width: 480px) {}
+@media screen and (max-width: 320px) {
+     .title ul {
+          margin: 0;
+     }
 
-@media screen and (min-width: 320px) {}
+     .nav ul {
+          display: block;
+     }
+
+     .title-h1 {
+          margin: auto;
+     }
+}
