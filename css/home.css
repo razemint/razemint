@@ -142,4 +142,13 @@ footer {
      .title-h1 {
           margin: auto;
      }
+
+     .title {
+          justify-content: space-around;
+
+     }
+
+     .title h1 {
+          justify-content: end;
+     }
 }
