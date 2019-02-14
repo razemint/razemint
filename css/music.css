@@ -6,6 +6,8 @@ body {
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* header styles */
@@ -16,12 +18,21 @@ a {
     font-family: 'Roboto Mono', monospace;
 }
 
+.title img {
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
 .title {
-    margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
 }
 
 nav ul li {
@@ -77,7 +88,7 @@ nav.ul {
     list-style-type: none;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     justify-content: flex-end;
 }
@@ -87,6 +98,59 @@ nav > ul {
 footer {
     font-family: 'Roboto Mono', sans-serif;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     font-size: 1rem;
-}
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    flex: 1;
+
+    @media screen and (max-width: 1024px) {}
+
+    @media screen and (max-width: 767px) {
+        .title {}
+    }
+
+    @media screen and (max-width: 479px) {
+        .title ul {
+            margin: 0;
+        }
+
+        .nav ul {
+            display: block;
+        }
+
+        .title-h1 {
+            margin: auto;
+        }
+
+        .footer {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+
+        .title ul {
+            margin: 0;
+        }
+
+        .nav ul {
+            display: block;
+        }
+
+        .title-h1 {
+            margin: auto;
+        }
+
+        .title {
+            justify-content: space-around;
+        }
+
+        .title h1 {
+            justify-content: end;
+        }
+
+    }
