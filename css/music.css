@@ -94,6 +94,12 @@ nav>ul {
 }
 
 /* end of header styles */
+.discopraphy.h1.li {
+    height: 0 auto;
+    width: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
 
 footer {
     font-family: 'Roboto Mono', sans-serif;
@@ -106,51 +112,52 @@ footer {
     margin: 0 auto;
     max-width: 1000px;
     flex: 1;
+}
 
-    @media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {}
 
-    @media screen and (max-width: 767px) {
-        .title {}
+@media screen and (max-width: 767px) {
+    .title {}
+}
+
+@media screen and (max-width: 479px) {
+    .title ul {
+        margin: 0;
     }
 
-    @media screen and (max-width: 479px) {
-        .title ul {
-            margin: 0;
-        }
-
-        .nav ul {
-            display: block;
-        }
-
-        .title-h1 {
-            margin: auto;
-        }
-
-        .footer {
-            text-align: center;
-        }
+    .nav ul {
+        display: block;
     }
 
-    @media screen and (max-width: 320px) {
-
-        .title ul {
-            margin: 0;
-        }
-
-        .nav ul {
-            display: block;
-        }
-
-        .title-h1 {
-            margin: auto;
-        }
-
-        .title {
-            justify-content: space-around;
-        }
-
-        .title h1 {
-            justify-content: end;
-        }
-
+    .title-h1 {
+        margin: auto;
     }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .title ul {
+        margin: 0;
+    }
+
+    .nav ul {
+        display: block;
+    }
+
+    .title-h1 {
+        margin: auto;
+    }
+
+    .title {
+        justify-content: space-around;
+    }
+
+    .title h1 {
+        justify-content: end;
+    }
+
+}
