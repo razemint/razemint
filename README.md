@@ -14,5 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=razemint&layout=compact)](https://github.com/razemint/github-readme-stats)
